@@ -1,0 +1,66 @@
+<aspectj>
+	<aspects>		
+		<aspect name="net.rationalminds.es.EnvironmentControlImpl"/>
+	</aspects>
+	<!-- <include within="java.net.*"/> <include within="java.net.URLConnection+"/> -->
+	<weaver		options="-nowarn  -proceedOnError -Xset:fastWeaving=true  -Xset:weaveJavaPackages=false -Xset:weaveJavaxPackages=false" >
+		<exclude within="edu.emory.mathcs.backport..*" />
+		<exclude within="*..*CGLIB$*" />
+		<exclude within="*..*$Proxy*" />
+		<exclude within="java.lang.reflect.Proxy+" />
+		<!-- exclude within="org.apache.catalina..* &amp;&amp; !org.apache.catalina.servlets..*" /-->
+		<exclude within="org.apache.tomcat..*  &amp;&amp; !org.apache.tomcat.dbcp..*" />
+		<exclude within="org.apache.jk..*" />
+		<exclude within="org.apache.commons.collections..*" />
+		<exclude within="org.apache.commons.logging..*" />
+		<exclude within="org.apache.naming..*" />
+		<exclude within="org.apache.log4j..*" />
+		<exclude within="org.apache.taglibs..*" />
+		<exclude within="org.apache.tools..*" />
+		<exclude within="org.apache.velocity..*" />
+		<exclude within="org.apache.xerces..*" />
+		<exclude within="org.apache.xmlbeans..*" />
+		<!-- exclude within="org.hibernate..*" /-->
+		<exclude within="org.springframework.aop..*" />
+		<exclude within="org.springframework.beans..*" />
+		<exclude within="org.springframework.context..*" />
+		<exclude within="org.springframework.jmx..*" />
+		<exclude within="net.sf.hibernate..*" />
+		<exclude within="weblogic.jdbc..*" />
+		<exclude within="weblogic.servlet..*" />
+		<exclude within="weblogic.common..*" />
+		<exclude within="weblogic.jndi..*" />
+		<exclude within="weblogic.apache..*" />
+		<exclude within="weblogic.application..*" />
+		<exclude within="weblogic.deploy..*" />
+		<exclude within="weblogic.diagnostics..*" />
+		<exclude within="weblogic.ejb..*" />
+		<exclude within="weblogic.j2ee.descriptor..*" />
+		<exclude within="weblogic.management..*" />
+		<exclude within="weblogic.messaging..*" />
+		<exclude within="weblogic.rmi..*" />
+		<exclude within="weblogic.security..*" />
+		<exclude within="weblogic.store..*" />
+		<exclude within="weblogic.transaction..*" />
+		<exclude within="weblogic.utils..*" />
+		<exclude within="com.bea.common..*" />
+		<exclude within="com.bea.security..*" />
+		<exclude within="com.bea.staxb..*" />
+		<exclude within="com.bea.xbean..*" />
+		<exclude within="com.bea.xml..*" />
+		<exclude within="com.rsa..*" />
+		<exclude within="com.certicom..*" />
+		<exclude within="com.octetstring..*" />
+		<exclude within="org.jboss.aop..*" />
+		<exclude within="org.jboss.web.tomcat..*" />
+		<exclude within="org.jboss.web.management..*" />
+		<exclude within="org.jboss.web.monitor..*" />
+		<exclude
+			within="com.ibm..* &amp;&amp; !com.ibm.jdbcx..* &amp;&amp; !com.ibm.ws..* &amp;&amp; !com.ibm.websphere.security..* &amp;&amp; !com.ibm.websphere.cluster..* &amp;&amp; !com.ibm.websphere.ws.wlm..* &amp;&amp; !com.ibm.ejs..*" />
+		<exclude within="org.eclipse..*" />
+		<exclude within="org.osgi..*" />
+		<!-- avoid deadlock bug with AspectJ LTW, e.g., see GLASSBOX-117 -->
+		<exclude within="java.io.ObjectInputStream+" />
+	</weaver>
+</aspectj>
+
