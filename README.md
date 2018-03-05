@@ -1,5 +1,6 @@
 # environment-switch
 
+
 Many a time we feel that there should be a way by which we can invoke different functionality in a flow depending on the environment.
 
 How great it would be if in development environment one can just mock the database or any other external call and return dummy data for debugging purpose. However. , there are existing frameworks for testing like Mockito which let one simulate external objects by mocking return objects. Spring profile is also helpful to an extent by creating different profiles. All these existing frameworks are good for either testing or running code in any live environment, but for the desktop IDE based environment it is too much work to set them up.
