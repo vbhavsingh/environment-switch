@@ -1,5 +1,6 @@
 # environment-switch
 
+Read formatted blog at http://coffeefromme.blogspot.com/2018/03/java-use-different-methods-as-mock-in.html 
 
 Many a time we feel that there should be a way by which we can invoke different functionality in a flow depending on the environment.
 
