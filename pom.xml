@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>net.rationalminds</groupId>
 	<artifactId>environment-switch</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>environment-switch</name>
 	<description>annotate methods to behave differently in case of different envrironments </description>
 	<!-- mvn clean deploy -->

@@ -3,7 +3,7 @@
 		<aspect name="net.rationalminds.es.EnvironmentControlImpl"/>
 	</aspects>
 	<!-- <include within="java.net.*"/> <include within="java.net.URLConnection+"/> -->
-	<weaver		options="-nowarn  -proceedOnError -Xset:fastWeaving=true  -Xset:weaveJavaPackages=false -Xset:weaveJavaxPackages=false" >
+	<weaver options="-warn:none -proceedOnError -Xset:fastWeaving=true  -Xset:weaveJavaPackages=false -Xset:weaveJavaxPackages=false -Xlint:ignore -Xlintfile:META-INF/Xlint.properties" >
 		<exclude within="edu.emory.mathcs.backport..*" />
 		<exclude within="*..*CGLIB$*" />
 		<exclude within="*..*$Proxy*" />
