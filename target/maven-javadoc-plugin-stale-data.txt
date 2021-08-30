@@ -1,0 +1,43 @@
+@options
+@packages
+-classpath
+'/Users/vaibhavsingh/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/Users/vaibhavsingh/Documents/projects/environment-switch/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2021. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'environment-switch 0.0.2 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/Users/vaibhavsingh/Documents/projects/environment-switch/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'environment-switch 0.0.2 API'
+net.rationalminds.es.util
+net.rationalminds.es
+/Users/vaibhavsingh/.m2/repository/org/aspectj/aspectjweaver/1.8.13/aspectjweaver-1.8.13.jar = 1584448646000
+/Users/vaibhavsingh/Documents/projects/environment-switch/src/main/java = 1630337738000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/constant-values.html = 1630345406000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/overview-tree.html = 1630345406000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/index.html = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/overview-frame.html = 1630345406000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/allclasses-noframe.html = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/index-all.html = 1630345406000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/deprecated-list.html = 1630345406000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/script.js = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/stylesheet.css = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/overview-summary.html = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/help-doc.html = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/allclasses-frame.html = 1630345407000
+/Users/vaibhavsingh/Documents/projects/environment-switch/target/apidocs/package-list = 1630345406000
