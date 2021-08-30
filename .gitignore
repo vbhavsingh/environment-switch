@@ -1,0 +1,13 @@
+*/.classpath
+*/.project
+*/target
+*/.settings
+*/.settings/
+*/log
+*/logs
+*/target/*
+*/log/*
+*/logs/*
+*/.settings/*
+//.settings
+*/ajcore*
